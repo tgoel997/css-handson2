@@ -1,0 +1,144 @@
+body{
+    /* background-image: istockphoto.jpg; */
+    background-image: url(./sky\ is\ pink.jpg) ;
+    border: 15px ridge rgb(9, 233, 9);
+   height :auto;
+   background-size:cover;
+   background-repeat: no-repeat;
+   margin: 0;
+}
+
+.box{
+    background-color: black;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.uppercontainer{
+  display: flex;
+  padding: 5;
+}
+.leftbox{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    font-size: 20px;
+    
+}
+
+.midbox{
+    width: 300px;
+    height: 60px;
+    margin-left: -100px;
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+  
+
+}
+
+.rightbox{
+    width: 300px;
+    height: 100px;
+    margin-left: 500px;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    position: relative;
+    font-size: 20px;
+
+    
+}
+
+.midcontainer{
+    display: flex;
+    
+    height: 600px;
+    margin-top: 50px;
+}
+.circle{
+    height: 400px;
+    width: 400px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    background: turquoise;
+    color: blac;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 150px;
+    margin-left: 50px;
+
+}
+
+.circletext{
+    margin-top: 100px;
+}
+
+.formbox{
+    height: 575px;
+    width: 300px;
+    border: 10px red dashed;
+    color: tomato;
+    margin-left: 400px;
+    text-align: center;
+    margin-bottom: 2000px;
+
+}
+.lowercontainer{
+    display: flex;
+    border: solid 1px black;
+    
+}
+
+
+.menubox{
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    border: 5px solid red;
+    border-radius: 15px;
+    position: relative;
+    left: 600px;
+    font-size: 30px;
+    text-align: center;
+    top: 30px;
+    margin-left: -75px;
+}
+
+.levelbox{
+    height: 400px;
+    width: 350px;
+    background-color: cyan;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 40px;
+    text-align: center;
+    color:blue;
+    font-size: 20px;
+    position: relative;
+
+}
+.lowercontainer2{
+    display: flex;
+    border: solid 1px black;
+    
+}
+.boxF{
+    height: 500px;
+    width: 350px; 
+}
+.boxC{
+    display: block;
+}
